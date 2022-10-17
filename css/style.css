@@ -362,6 +362,7 @@ letter-spacing: 0.06em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 94px;
 }
 
 .portfolio-list>li{
