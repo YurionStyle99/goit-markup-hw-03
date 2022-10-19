@@ -33,6 +33,11 @@ a{
   text-decoration: none;
 }
 
+img{
+  display:block;
+  margin: 0%;
+}
+
 address{
   font-style: normal;
 }
@@ -64,7 +69,7 @@ address{
 }
 
 .container{
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -138,6 +143,10 @@ a.contact-link:focus{
 header{
   border-bottom: 1px solid #ECECEC;
 }
+
+.section{
+  padding: 94px 0;
+}
 /* hero-section */
 
 .hero-wrap{
@@ -156,8 +165,8 @@ color:var(--background-primary-color);
 display: inline-block;
 
 
-/* padding-top: 200px; */
-margin: 200px 0 30px 0px;
+padding-top: 106px;
+margin: 0px 0 30px 0px;
 
 font-weight: 900;
 font-size: 44px;
@@ -172,7 +181,7 @@ text-transform: uppercase;
   color: var(--background-primary-color);
   display: block;
   
-  margin-bottom: 200px;
+  margin-bottom: 106px;
   padding: 10px 32px;
   border-radius: 4px;
   border-width: 0px;
@@ -193,7 +202,7 @@ display: flex;
 }
 
 .advantage-title{
-  margin: 94px 0 10px 0;
+  margin: 0px 0 10px 0;
 
   font-weight: 700;
   font-size: 14px;
@@ -216,15 +225,16 @@ display: flex;
   line-height: 1.7;
 }
 /* what-we-do-section */
-.section-title{
-  margin: 118px 0 50px 0;
-}
 
 .what-we-do-wrap{
 display: flex;
 justify-content: space-between;
-margin-bottom: 50px;
 }
+
+.section-title{
+  margin: 0px 0 50px 0;
+}
+
 
 
 /* our-team-section */
@@ -242,13 +252,11 @@ margin-bottom: 50px;
 .team-list>li{
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  margin-bottom: 94px;
 }
 
 .team-section-title{
   margin: 0%;
 margin-bottom: 50px;
-padding-top: 94px;
 
 font-weight: 700;
 font-size: 36px;
@@ -320,6 +328,7 @@ footer{
 
 .filter-wrap{
   text-align: center;
+  margin-bottom: 56px;
 }
 
 .filter-wrap>li{
@@ -331,7 +340,6 @@ footer{
 }
 
 .filter-btn{
-margin: 94px 0 50px 0;
 padding: 6px 22px;
 border-radius: 4px;
 border-color: transparent;
@@ -362,13 +370,16 @@ letter-spacing: 0.06em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 94px;
 }
 
-.portfolio-list>li{
+.portfolio-list>li:not(img){
   border: 1px solid #EEEEEE;
+}
+
+.portfolio-list>li:nth-last-child(n+4){
   margin-bottom: 30px;
 }
+
 
 .portfolio-list a{
   text-decoration: none;
