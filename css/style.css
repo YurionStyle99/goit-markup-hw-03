@@ -140,7 +140,7 @@ a.contact-link:hover,
 a.contact-link:focus{
  color: var(--secondary-color);
 }
-header{
+.header-border{
   border-bottom: 1px solid #ECECEC;
 }
 
